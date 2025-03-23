@@ -1,3 +1,36 @@
+$bgColor: #030507;
+$btnColor: #5a0c28;
+$mainBgColor: #131619;
+
 body {
-  background-color: black;
+  background-color: $bgColor;
+  color: white;
+}
+
+.main__container {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 1.1fr 4fr 1fr;
+}
+
+.main__header {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  margin: 0px 12px;
+  .main__header__box {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    span {
+      font-size: 32px;
+      font-weight: 600;
+    }
+  }
+}
+
+.main__content {
+  background-color: $mainBgColor;
+  padding: 0px 12px;
 }
