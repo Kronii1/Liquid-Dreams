@@ -1,0 +1,31 @@
+.logo-container {
+  position: absolute;
+  z-index: 99;
+  height: 100vh;
+  width: 100vw;
+  background-image: url("../img/logo1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  top: 0;
+}
+.logo-container .maintext__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+  margin-bottom: 140px;
+}
+.logo-container .maintext__container span:first-child {
+  font-size: 42px;
+  font-size-adjust: 0.7;
+}
+.logo-container .maintext__container span:last-child {
+  font-size: 21px;
+}
+
+/*# sourceMappingURL=logo-container.css.map */
