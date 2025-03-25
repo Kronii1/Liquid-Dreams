@@ -1,6 +1,6 @@
-@import url("logo-container.scss");
-@import url("home.scss");
-@import url("reset.scss");
+@import url("logo-container.css");
+@import url("home.css");
+@import url("reset.css");
 body {
   font-family: sans-serif;
 }
