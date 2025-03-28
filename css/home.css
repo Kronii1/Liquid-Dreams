@@ -209,7 +209,7 @@ body {
     gap: 10px;
   }
 }
-@media screen and (min-device-width: 1024px) {
+@media screen and (min-device-width: 1024px) and (max-width: 1920px) {
   .main__container {
     height: 100vh;
     display: grid;
