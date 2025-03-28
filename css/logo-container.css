@@ -53,11 +53,15 @@
     margin-bottom: 140px;
   }
   .logo-container .maintext__container span:first-child {
-    font-size: 42px;
+    font-size: 70px;
     font-size-adjust: 0.7;
+    margin-bottom: 20px;
+  }
+  .logo-container .maintext__container span:nth-child(2) {
+    font-size: 35px;
   }
   .logo-container .maintext__container span:last-child {
-    font-size: 21px;
+    font-size: 42px;
   }
 }
 

@@ -55,11 +55,15 @@
       margin-bottom: 140px;
       span {
         &:first-child {
-          font-size: 42px;
+          font-size: 70px;
           font-size-adjust: 0.7;
+          margin-bottom: 20px;
+        }
+        &:nth-child(2) {
+          font-size: 35px;
         }
         &:last-child {
-          font-size: 21px;
+          font-size: 42px;
         }
       }
     }

@@ -7,7 +7,115 @@ body {
   color: white;
 }
 
+// IPhone, Galaxy, Flip
 @media screen and (max-width: 440px) {
+  .main__container {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1.1fr 4fr 0.5fr;
+  }
+
+  .main__header {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin: 0px 12px;
+    .main__header__box {
+      gap: 10px;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      span {
+        font-size: 32px;
+        font-weight: 600;
+      }
+      input {
+        width: 95%;
+        height: 30px;
+        border: none;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        background-color: #1f2125;
+        color: white;
+        font-size: 20px;
+        padding-left: 20px;
+        &::placeholder {
+          color: white;
+        }
+      }
+    }
+  }
+
+  .main__content {
+    background-color: $mainBgColor;
+    padding: 0px 12px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    .main__content-1 {
+      display: grid;
+      grid-template-rows: 0.8fr 0.2fr;
+      .main__drink-img {
+        border-radius: 20px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      #midori-sour {
+        background-image: url(../img/MidoriSour.jpg);
+      }
+      #blue-moon {
+        background-image: url(../img/BlueMoon.jpg);
+      }
+      #david-martinez {
+        background-image: url(../img/DavidMartinez.jpg);
+      }
+      #vodka-martini {
+        background-image: url(../img/VodkaMartini.jpg);
+      }
+      .main__drink-info {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        .main__drink-name {
+          font-size: 20px;
+        }
+        .main__drink__review {
+          display: flex;
+          font-size: 14px;
+          gap: 20px;
+          .main__drink-time,
+          .main__drink-star {
+            i {
+              color: #8e0637;
+            }
+            color: whitesmoke;
+          }
+        }
+      }
+    }
+  }
+
+  .main__container-nav {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 12px 10px;
+    .nav-menu {
+      width: 33%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+  }
+}
+
+// IPad , IPad Pro
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   .main__container {
     height: 100vh;
     display: grid;
