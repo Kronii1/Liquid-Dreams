@@ -51,9 +51,11 @@ body {
     background-color: $mainBgColor;
     padding: 0px 12px;
     display: grid;
+    height: 100%;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-auto-rows: 300px;
     gap: 10px;
+    overflow: auto;
     .main__content-1 {
       display: grid;
       grid-template-rows: 0.8fr 0.2fr;
@@ -74,6 +76,18 @@ body {
       }
       #vodka-martini {
         background-image: url(../img/VodkaMartini.jpg);
+      }
+      #negroni {
+        background-image: url(../img/Negroni.jpg);
+      }
+      #blue-sky {
+        background-image: url(../img/BlueSky.jpg);
+      }
+      #kahlua-milk {
+        background-image: url(../img/kahlua-milk.jpg);
+      }
+      #mojito {
+        background-image: url(../img/mojito.jpg);
       }
       .main__drink-info {
         margin-top: 10px;
@@ -182,6 +196,18 @@ body {
       #vodka-martini {
         background-image: url(../img/VodkaMartini.jpg);
       }
+      #negroni {
+        background-image: url(../img/Negroni.jpg);
+      }
+      #blue-sky {
+        background-image: url(../img/BlueSky.jpg);
+      }
+      #kahlua-milk {
+        background-image: url(../img/kahlua-milk.jpg);
+      }
+      #mojito {
+        background-image: url(../img/mojito.jpg);
+      }
       .main__drink-info {
         margin-top: 10px;
         display: flex;
@@ -278,7 +304,7 @@ body {
         background-size: cover;
       }
       #midori-sour {
-        background-image: url(../img/MidoriSour.jpg);
+        background-image: url(../img/midorisour-laptop.jpg);
         background-position: 0% 40%;
       }
       #blue-moon {
@@ -294,6 +320,15 @@ body {
       }
       #negroni {
         background-image: url(../img/Negroni.jpg);
+      }
+      #blue-sky {
+        background-image: url(../img/BlueSky.jpg);
+      }
+      #kahlua-milk {
+        background-image: url(../img/kahlua-milk.jpg);
+      }
+      #mojito {
+        background-image: url(../img/mojito.jpg);
       }
       .main__drink-info {
         margin-top: 10px;
