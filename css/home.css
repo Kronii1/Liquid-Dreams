@@ -162,8 +162,10 @@ body {
     padding: 0px 12px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    height: 100%;
+    grid-auto-rows: 500px;
     gap: 10px;
+    overflow: auto;
   }
   .main__content .main__content-1 {
     display: grid;
