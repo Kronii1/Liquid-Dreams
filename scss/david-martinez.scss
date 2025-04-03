@@ -1,0 +1,86 @@
+$bgColor: #030507;
+$btnColor: #5a0c28;
+$mainBgColor: #131619;
+
+// info 배경색 및 폰트색상 header__container에서 설정해주기
+// body로 설정시 전체적으로 영향이 감..
+
+.header__container {
+  background-color: white;
+  color: black;
+  height: 100vh;
+}
+
+// IPhone, Galaxy, Flip
+@media screen and (max-width: 440px) {
+  .header__container {
+    display: grid;
+    grid-template-rows: 48% 42% 10%;
+    .header__banner {
+      background-image: url(../img/DavidMartinez-laptop.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-end;
+      .header__banner-info {
+        width: 130px;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+        padding: 15px 20px;
+        backdrop-filter: saturate(180%) blur(20px);
+        border-radius: 20px;
+        margin-left: 15px;
+        margin-bottom: 15px;
+        span {
+          font-size: 20px;
+          color: blue;
+        }
+      }
+    }
+
+    .section__container {
+      display: flex;
+      flex-direction: column;
+      padding: 15px 12px;
+      .section__item-name {
+        font-size: 50px;
+        font-weight: 600;
+        font-size: 60px;
+        line-height: 100px;
+        letter-spacing: -5px;
+      }
+      .section__item-info {
+        height: 55px;
+        overflow-y: scroll;
+        margin-bottom: 15px;
+      }
+
+      .section__item-recipe {
+        display: flex;
+        flex-direction: column;
+        span {
+          margin-bottom: 15px;
+        }
+      }
+    }
+  }
+}
+
+#page-color {
+  background-color: #fcfbf4;
+  border-top: 0.5px solid grey;
+}
+
+// IPad , IPad Pro
+@media only screen and (min-device-width: 768px) and (max-device-width: 1023px) {
+}
+
+//LapTop
+@media only screen and (min-width: 1024px) and (max-width: 1920px) {
+}

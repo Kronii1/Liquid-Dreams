@@ -28,4 +28,12 @@ grid-auto-rows로 300px의 값을 주어서
 그럼 자동적으로 넘치게되는 content를
 overflow:auto or scroll로 잡아준다.
 
+### 2. Apple header형 불투명 바
+
+참고 블로그
+<https://brunch.co.kr/@skykamja24/505>
+
+참고 CSS 공식 문서
+<https://developer.mozilla.org/ko/docs/Web/CSS/backdrop-filter>
+
 ## 📌 참고한 자바스크립트 공식 문서

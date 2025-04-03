@@ -67,7 +67,7 @@ body {
     background-image: url(../img/MidoriSour.jpg);
   }
   .main__content .main__content-1 #blue-moon {
-    background-image: url(../img/Negroni.jpg);
+    background-image: url(../img/BlueMoon.jpg);
   }
   .main__content .main__content-1 #david-martinez {
     background-image: url(../img/DavidMartinez.jpg);
@@ -182,6 +182,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    cursor: pointer;
   }
   .main__content .main__content-1 #midori-sour {
     background-image: url(../img/MidoriSour.jpg);
@@ -215,6 +216,7 @@ body {
   }
   .main__content .main__content-1 .main__drink-info .main__drink-name {
     font-size: 20px;
+    cursor: pointer;
   }
   .main__content .main__content-1 .main__drink-info .main__drink__review {
     display: flex;
@@ -308,6 +310,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    cursor: pointer;
   }
   .main__content .main__content-1 #midori-sour {
     background-image: url(../img/midorisour-laptop.jpg);
@@ -344,6 +347,7 @@ body {
   }
   .main__content .main__content-1 .main__drink-info .main__drink-name {
     font-size: 20px;
+    cursor: pointer;
   }
   .main__content .main__content-1 .main__drink-info .main__drink__review {
     display: flex;
