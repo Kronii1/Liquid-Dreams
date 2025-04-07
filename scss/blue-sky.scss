@@ -5,12 +5,6 @@ $mainBgColor: #131619;
 // info 배경색 및 폰트색상 header__container에서 설정해주기
 // body로 설정시 전체적으로 영향이 감..
 
-.header__container {
-  background-color: white;
-  color: black;
-  height: 100vh;
-}
-
 // IPhone, Galaxy, Flip
 @media screen and (max-width: 440px) {
   .header__container {
