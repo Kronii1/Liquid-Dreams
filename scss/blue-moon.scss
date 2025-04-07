@@ -17,7 +17,6 @@ $mainBgColor: #131619;
     display: grid;
     grid-template-rows: 48% 42% 10%;
     .header__banner {
-      background-image: url(../img/BlueMoon.jpg);
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
@@ -42,6 +41,10 @@ $mainBgColor: #131619;
           color: blueviolet;
         }
       }
+    }
+
+    #blue-moon {
+      background-image: url(../img/BlueMoon.jpg);
     }
 
     .section__container {

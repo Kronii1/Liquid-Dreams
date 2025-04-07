@@ -10,7 +10,6 @@
     grid-template-rows: 48% 42% 10%;
   }
   .header__container .header__banner {
-    background-image: url(../img/DavidMartinez-laptop.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -35,6 +34,9 @@
   .header__container .header__banner .header__banner-info span {
     font-size: 20px;
     color: blue;
+  }
+  .header__container #david-martinez {
+    background-image: url(../img/DavidMartinez-laptop.jpg);
   }
   .header__container .section__container {
     display: flex;
