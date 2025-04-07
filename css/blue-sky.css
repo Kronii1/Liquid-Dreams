@@ -10,7 +10,6 @@
     grid-template-rows: 48% 42% 10%;
   }
   .header__container .header__banner {
-    background-image: url(../img/VodkaMartini.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -34,7 +33,10 @@
   }
   .header__container .header__banner .header__banner-info span {
     font-size: 20px;
-    color: #00008b;
+    color: #800080;
+  }
+  .header__container #blue-sky {
+    background-image: url(../img/BlueSky.jpg);
   }
   .header__container .section__container {
     display: flex;
@@ -66,4 +68,4 @@
   border-top: 0.5px solid grey;
 }
 
-/*# sourceMappingURL=vodka-martini.css.map */
+/*# sourceMappingURL=blue-sky.css.map */

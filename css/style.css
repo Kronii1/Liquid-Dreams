@@ -5,6 +5,11 @@
 @import url("blue-moon.css");
 @import url("david-martinez.css");
 @import url("vodka-martini.css");
+@import url("negroni.css");
+@import url("blue-sky.css");
+@import url("kahlua-milk.css");
+@import url("mojito.css");
+
 body {
   font-family: sans-serif;
 }

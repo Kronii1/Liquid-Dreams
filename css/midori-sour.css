@@ -55,12 +55,24 @@
     overflow-y: scroll;
     margin-bottom: 15px;
   }
-  .header__container .section__container .section__item-recipe {
+  .header__container .section__container .section__item-scrollbar {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+  }
+  .header__container .section__container .section__item-scrollbar .section__item-recipe,
+  .header__container .section__container .section__item-scrollbar .section__steps {
     display: flex;
     flex-direction: column;
   }
-  .header__container .section__container .section__item-recipe span {
+  .header__container .section__container .section__item-scrollbar .section__item-recipe span,
+  .header__container .section__container .section__item-scrollbar .section__steps span {
     margin-bottom: 15px;
+  }
+  .header__container .section__container .section__item-scrollbar .section__item-recipe span:first-child,
+  .header__container .section__container .section__item-scrollbar .section__steps span:first-child {
+    font-weight: bold;
+    font-size: 16px;
   }
 }
 #page-color {
