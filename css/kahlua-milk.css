@@ -25,7 +25,7 @@
     margin-left: 15px;
     margin-bottom: 15px;
   }
-  .header__container .header__banner .header__banner-info span {
+  .header__container .header__banner .header__banner-info #kahlua-color {
     font-size: 20px;
     color: #fffdd0;
   }
@@ -62,7 +62,7 @@
   border-top: 0.5px solid grey;
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1023px) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   .header__container {
     display: grid;
     grid-template-rows: 48% 42% 10%;
@@ -89,9 +89,9 @@
     margin-left: 15px;
     margin-bottom: 15px;
   }
-  .header__container .header__banner .header__banner-info span {
+  .header__container .header__banner .header__banner-info #kahlua-color {
     font-size: 20px;
-    color: darkkhaki;
+    color: #fffdd0;
   }
   .header__container #kahlua-milk {
     background-image: url(../img/kahlua-milk.jpg);

@@ -30,7 +30,7 @@ $mainBgColor: #131619;
         border-radius: 20px;
         margin-left: 15px;
         margin-bottom: 15px;
-        span {
+        #blue-moon-color {
           font-size: 20px;
           color: blueviolet;
         }
@@ -75,7 +75,7 @@ $mainBgColor: #131619;
 }
 
 // IPad , IPad Pro
-@media only screen and (min-device-width: 768px) and (max-device-width: 1023px) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   .header__container {
     display: grid;
     grid-template-rows: 48% 42% 10%;
@@ -99,9 +99,9 @@ $mainBgColor: #131619;
         border-radius: 20px;
         margin-left: 15px;
         margin-bottom: 15px;
-        span {
+        #blue-moon-color {
           font-size: 20px;
-          color: darkkhaki;
+          color: blueviolet;
         }
       }
     }
@@ -149,5 +149,5 @@ $mainBgColor: #131619;
 }
 
 //LapTop
-@media only screen and (min-width: 1024px) and (max-width: 1920px) {
+@media only screen and (min-width: 1025px) and (max-width: 1920px) {
 }
